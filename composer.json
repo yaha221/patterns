@@ -1,0 +1,21 @@
+{
+    "name": "efko/training",
+    "description": "Пакет для тренировочных реализаций",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Bogachevskiy",
+            "email": "a.bogachevskiy@efko.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "symfony/var-dumper": "^5.4"
+    },
+    "autoload" : {
+        "psr-4": {
+            "training\\": "web/"
+        }
+    }
+}
